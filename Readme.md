@@ -5,3 +5,29 @@ Installation:
 
 Usage:
 ```css-split <path to CSS file>```
+
+Example:
+
+_input.css_
+```
+h1, h2 {
+    padding: 5px;
+    margin: 5px;
+}
+```
+
+```
+css-split input.css
+```
+
+Output:
+```
+h1 {
+    padding: 5px;
+    margin: 5px;
+}
+h2 {
+    padding: 5px;
+    margin: 5px;
+}
+```
