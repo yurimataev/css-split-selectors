@@ -1,4 +1,9 @@
 Takes any rules with multiple selectors and splits them into individual rules.
+Also takes any rules within media queries and creates an individual media 
+query for each. 
+
+Why? This allows two CSS files to be compared semantically using standard UNIX
+diff.
 
 Installation:
 ```npm i -g https://github.com/yurimataev/css-split-selectors.git```
