@@ -32,8 +32,5 @@ root.nodes = postcss.splitSelectors(root.nodes)
 let newCssStr = '';
 postcss.stringify(root, result => {
     newCssStr += result;
-    if (result == "}") {
-        newCssStr += "\n"
-    }
 });
 console.log(newCssStr)
